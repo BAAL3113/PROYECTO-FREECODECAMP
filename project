@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<STYLE>
+#main {
+        color: lightseagreen;
+        min-height: 300px;
+        width: 100%;
+        background-color: lightgoldenrodyellow;
+        }
+#title {
+       color: lightseagreen;
+       font-size: 50px;
+       background-color: lightgrey;
+       font-family: Lobster, monospace;
+       text-align: center;
+       justify-self: center;
+        }
+#image {
+       width: 100px;
+       border-color: lightseagreen;
+       border-width: 10px;
+       border-style: solid;
+       border-radius: 50px;
+       }
+@media (min-width: 300px){
+  #image{
+    width: 100px;
+  }
+}
+@media (min-width: 400px){
+  #image{
+    width: 150px;
+  }
+}
+#img-div {
+          border-color: lightseagreen;
+          border-width: 10px;
+          border-style: solid;
+          border-radius: 50px;
+          height: 300px;
+          }
+#img-caption {
+          font-family: Lobster, monospace;
+          }        
+        p {
+          font-size: 50px;
+          text-align: center;
+          font-family: Lobster, monospace;
+          }
+#tribute-info{
+        display: flex;
+        flex-flow: column wrap;
+        position: relative;
+        align-items: center;
+        width: 100%;
+        margin: 20px 0 0;
+        background-color: blanchedalmond;
+        color: lightseagreen;
+        }
+#tribute-info2{
+        text-align: left;
+        background-color: lightgoldenrodyellow;
+        color: lightseagreen;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,1fr);
+        grid-template-rows: 1fr;        
+}
+#tribute-link{
+  font-family: Lobster, monospace;
+  grid-area: 2/4/4/6;
+}
+#button{
+  width:50px;
+  height:30px;
+  grid-area:1/4;
+  justify-self: left;
+  align-self: end;
+}
+#button2{
+  width:50px;
+  height:30px;
+  grid-area:1/4;
+  justify-self: center;
+  align-self:end;
+}
+.item1{
+  background: blanchedalmond;
+  grid-area:1/1/4/3;
+}
+.item2{
+  background: blanchedalmond;
+  grid-area:1/6/4/8
+}
+</STYLE>
+<main>
+  <section>
+    <title>Ready to work</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <style>
+       
+    </style>
+    <div id="main">
+    <div id="img-div" align="center">
+        <h2 id="title">Ready to work</h2>
+    <figure><img id="image" src="https://www.freecatphotoapp.com/your-image.jpg" alt="ready to work."><figcaption id="img-caption">Ready to work</figcaption></figure>
+      </section>
+      <section id="tribute-info">
+      <p>Ready to work</p>
+<p>What do you need to have a job?
+First, you have to be ready for the interview, try to be positive, the first thing you have to have is confidence.
+How to get dressed, it depends on the job you are going to do, some interviews are necessary to go formal, some other interviews you can go casual.
+  Nowadays we need to work from our home so we need to make our home in our office.</p>
+      </section>
+      
+      <section id="tribute-info2">
+        <div class="item1"></div>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <label id="font"><input type="checkbox" name="work">tie</label>
+        <br>
+        <label id="font"><input type="checkbox" name="work">get dressed</label>
+        <br>
+        <label id="font"><input type="checkbox" name="work">get a shower</label>
+        </form>
+      <br>
+            <button id="button" type="button">Yes</button>
+            <button id="button2" type="button">No</button>
+        <br>
+        <div>Here's a<a id="tribute-link" target="_blank" href="https://obamawhitehouse.archives.gov/ready-to-work"> link Ready to work </a>for more information.</div>
+        <div class="item2"></div>
+      </section>
+    </div>
+  </div>
+</main>
+<HTML>
